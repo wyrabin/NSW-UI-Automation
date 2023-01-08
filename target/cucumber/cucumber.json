@@ -1,0 +1,213 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3397118100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User purchases 2 items until the order is successful",
+        "description": "",
+        "id": "feature-check-out;user-purchases-2-items-until-the-order-is-successful",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2130407400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open the website sauce demo",
+            "match": {
+              "location": "LoginSteps.verifyDisplay()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 186774600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User input \"standard_user\" as userName and input \"secret_sauce\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 12
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 50
+                }
+              ],
+              "location": "LoginSteps.inputCredential(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2101083300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User sort product list by name z to a",
+            "match": {
+              "location": "PurchaseSteps.selectProductContainer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2041240600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User pick item Sauce Labs Backpack",
+            "match": {
+              "location": "PurchaseSteps.clickItemBasket1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2048491900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User pick item sauce labs fleece jacket",
+            "match": {
+              "location": "PurchaseSteps.clickItemBasket2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2057233600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click total item on basket",
+            "match": {
+              "location": "PurchaseSteps.clickTotalBasket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2071948800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "System display item list from cartpage",
+            "match": {
+              "location": "CartSteps.getItemList()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2096106600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click checkout button on cartpage",
+            "match": {
+              "location": "CartSteps.checkOutItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3530841700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User input \"Binta Wira\" as firstName and input \"Nasrullah\" as lastName and input \"66352\" as postalCode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Binta Wira",
+                  "offset": 12
+                },
+                {
+                  "val": "Nasrullah",
+                  "offset": 48
+                },
+                {
+                  "val": "66352",
+                  "offset": 82
+                }
+              ],
+              "location": "InputInformationSteps.inputInformation(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2031197900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify total price is \"Total: $62.62\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Total: $62.62",
+                  "offset": 23
+                }
+              ],
+              "location": "CheckOutSteps.verifyTotalPrice(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2064977100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click finish button to checkout",
+            "match": {
+              "location": "CheckOutSteps.clickBtnFinish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2031107000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Display massage THANK YOU FOR YOUR ORDER",
+            "match": {
+              "location": "CheckOutSteps.thanksMsg()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Feature check out",
+    "description": "description feature",
+    "id": "feature-check-out",
+    "keyword": "Feature",
+    "uri": "features/CheckOut.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@CheckOut"
+      }
+    ]
+  }
+]
