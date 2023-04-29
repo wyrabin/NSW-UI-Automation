@@ -22,12 +22,17 @@ What things you need to install the software and how to install them.
 ## 🔧 Running the tests <a name = "tests"></a>
 
 To running the test, please follow this steps:
-- Run the tests using the following command. The test will be run on the headless mode. Wait until the test is finished.
+1. Clone the repository
+    ```
+    https://github.com/wyrabin/NSW-UI-Automation.git
+    ```
+2. Open the repository / project with Intellij IDEA    
+3. Run the tests using the following command. The test will be run on the headless mode. Wait until the test is finished.
     ```
     mvn clean verify
     ```
-- You can see the results on folder target -> Report
-- Open index.html with your default web browser
+4. You can see the results on folder target -> Report
+5. Open index.html with your default web browser
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
