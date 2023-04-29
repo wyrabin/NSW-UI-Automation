@@ -31,9 +31,6 @@ public class NswHomePage {
     @FindBy(xpath = "//*[@id=\"locatorTextSearch\"]")
     private WebElement searchBySuburbField;
 
-    @FindBy(xpath = "//*[@id=\"locatorListView\"]")
-    private WebElement serviceCentre;
-
     public void clickSearch() {
         searchField.click();
     }
@@ -60,10 +57,6 @@ public class NswHomePage {
 
     public void pressEnter2() {
         searchBySuburbField.sendKeys(Keys.ENTER);
-    }
-
-    public void validateServiceCentre() {
-
     }
 
     public boolean isDisplayed() {

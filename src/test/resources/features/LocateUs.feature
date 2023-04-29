@@ -1,5 +1,5 @@
 @Test
-Feature: UI Automation for locate service centre service.nsw
+Feature: UI Automation for locate service centre service.nsw website
 
   Scenario Outline: Locate service centre by suburb
     Given Open service.nsw homepage

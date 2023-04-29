@@ -39,7 +39,13 @@ public class LocateServiceStepDef {
     }
 
     @Then("^Validate user can see \"([^\"]*)\"$")
-    public void validateUserCanSee(){
+    public void validateUserCanSee(String serviceCentre){
+        String pageSource = webDriver.getPageSource();
 
+        if(pageSource.contains(serviceCentre)){
+            System.out.println("String '" + serviceCentre + "' found on page");
+        } else {
+            System.out.println("String '" + serviceCentre + "' not found on page");
+        }
     }
 }
