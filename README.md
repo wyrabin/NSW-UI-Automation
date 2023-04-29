@@ -24,7 +24,7 @@ What things you need to install the software and how to install them.
 To running the test, please follow this steps:
 1. Clone the repository
     ```
-    https://github.com/wyrabin/NSW-UI-Automation.git
+   git clone https://github.com/wyrabin/NSW-UI-Automation.git
     ```
 2. Open the repository / project with Intellij IDEA    
 3. Run the tests using the following command. The test will be run on the headless mode. Wait until the test is finished.
