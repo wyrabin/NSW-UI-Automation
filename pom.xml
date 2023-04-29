@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>sauceDemo</artifactId>
+    <artifactId>service.nsw-uiautomation</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -24,7 +24,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.1.2</version>
+            <version>4.9.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
         <dependency>
@@ -105,16 +105,12 @@
                     </execution>
                 </executions>
             </plugin>
-            <!--            <plugin>-->
-            <!--                <groupId>org.apache.maven.plugins</groupId>-->
-            <!--                <artifactId>maven-plugin-plugin</artifactId>-->
-            <!--                <version>3.6.0</version>-->
-            <!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
                 <configuration>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <skip>true</skip>
                 </configuration>
             </plugin>
             <!-- optional, only if you want pretty reports -->

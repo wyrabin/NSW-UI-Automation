@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sauceDemo" />
+        <module name="service.nsw-ui-automation" />
       </profile>
     </annotationProcessing>
   </component>
