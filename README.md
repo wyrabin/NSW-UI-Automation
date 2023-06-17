@@ -1,8 +1,8 @@
-<h3 align="center">UI Automation NSW</h3>
+<h3 align="center">Web Automation NSW</h3>
 
 ---
 
-<p align="center"> This project is an example of how to perform UI testing service.nsw.gov.au for validate search feature and location . The project uses Intellij IDEA as the development environment, Java 11 as the programming language,Selenium, Gherkin and Cucumber for writing and running feature files.
+<p align="center"> This project is an example of how to perform Web testing service.nsw.gov.au for validate search feature and location . The project uses Intellij IDEA as the development environment, Java 11 as the programming language,Selenium, Gherkin and Cucumber for writing and running feature files.
     <br> 
 </p>
 
